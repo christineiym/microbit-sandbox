@@ -1,3 +1,6 @@
+"""Test code."""
+
+
 from microbit import display, Image, sleep, microphone, SoundEvent
 
 
@@ -11,4 +14,3 @@ while True:
     # elif microphone.current_event() == SoundEvent.QUIET:
     #     display.show(Image.HEART_SMALL)
     # sleep(200)
-
